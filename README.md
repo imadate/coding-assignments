@@ -4,47 +4,57 @@ This is a Node.js application that processes transaction data and provides retri
 ## Installation
 To install the necessary packages, run the following command in the terminal:
 
-```npm install```
+```bash
+npm install
+```
 Running the Application
 To start the application, run the following command in the terminal:
 
-```npm start```
+```bash
+npm start
+```
 The application will start running and listening on http://localhost:8080.
 
 ## API Endpoints
 GET /assignment/transaction/:transaction_id
 This endpoint retrieves the details of a transaction based on the provided transaction ID. The output data is in JSON format and has the following fields:
 
-```{
+```bash
+{
   "transactionId": 1,
   "productName": "P1",
   "transactionAmount": 1000.0,
-  "transactionDatetime": "2018-01-01 10:10:10"
-}```
+  "transactionDatetime": "2023-03-10 10:10:10"
+}
+```
 GET /assignment/transactionSummaryByProducts/:last_n_days
 This endpoint retrieves the summary of transactions made by product name during the last n days. The input parameter last_n_days is a number indicating the number of days to consider for the summary. The output data is in JSON format and has the following fields:
 
 
-```{
+```bash
+{
   "summary": [
     {
       "productName": "P1",
       "totalAmount": 3000.0
     }
   ]
-}```
+}
+```
 GET /assignment/transactionSummaryByManufacturingCity/:last_n_days
 This endpoint retrieves the summary of transactions made by manufacturing city during the last n days. The input parameter last_n_days is a number indicating the number of days to consider for the summary. The output data is in JSON format and has the following fields:
 
 
-```{
+```bash
+{
   "summary": [
     {
       "cityName": "C1",
       "totalAmount": 3000.0
     }
   ]
-}```
+}
+```
 ## Dependencies
 This application uses the following dependencies:
 
