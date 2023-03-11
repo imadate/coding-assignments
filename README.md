@@ -58,8 +58,8 @@ This endpoint retrieves the summary of transactions made by manufacturing city d
 ## Dependencies
 This application uses the following dependencies:
 
-express - A fast, unopinionated, minimalist web framework for Node.js.
-csv-parser - A CSV parsing and encoding package for Node.js.
+* express - A fast, unopinionated, minimalist web framework for Node.js.
+* csv-parser - A CSV parsing and encoding package for Node.js.
 
 ## Notes
 * The transaction data is assumed to be in the format Transaction_YYYYMMDDHHmmss.csv. For example, Transaction_20180101101010.csv.
