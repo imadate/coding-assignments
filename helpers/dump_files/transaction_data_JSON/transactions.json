@@ -1,0 +1,44 @@
+[
+    {
+        "transactionId": 1,
+        "productId": 10,
+        "transactionAmount": 1000,
+        "transactionDatetime": "2018-10-01T04:40:10.000Z"
+    },
+    {
+        "transactionId": 2,
+        "productId": 10,
+        "transactionAmount": 1000,
+        "transactionDatetime": "2018-10-01T04:45:10.000Z"
+    },
+    {
+        "transactionId": 3,
+        "productId": 20,
+        "transactionAmount": 2000,
+        "transactionDatetime": "2018-10-01T04:45:20.000Z"
+    },
+    {
+        "transactionId": 4,
+        "productId": 10,
+        "transactionAmount": 1000,
+        "transactionDatetime": "2018-10-01T04:40:10.000Z"
+    },
+    {
+        "transactionId": 5,
+        "productId": 30,
+        "transactionAmount": 3000,
+        "transactionDatetime": "2018-10-01T04:50:10.000Z"
+    },
+    {
+        "transactionId": 6,
+        "productId": 20,
+        "transactionAmount": 2000,
+        "transactionDatetime": "2018-10-01T04:45:30.000Z"
+    },
+    {
+        "transactionId": 7,
+        "productId": 30,
+        "transactionAmount": 3000,
+        "transactionDatetime": "2018-10-01T04:50:10.000Z"
+    }
+]

@@ -2,7 +2,7 @@
   "name": "assignment",
   "version": "1.0.0",
   "description": "Creating assignment for Unscrambl",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
-    "express": "^4.18.2"
+    "csv-parser": "^3.0.0",
+    "express": "^4.18.2",
+    "moment": "^2.29.4"
   }
 }

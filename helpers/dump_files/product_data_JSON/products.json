@@ -1,0 +1,17 @@
+[
+    {
+        "productId": 10,
+        "productName": " P1",
+        "productManufacturingCity": " C1"
+    },
+    {
+        "productId": 20,
+        "productName": " P2",
+        "productManufacturingCity": " C1"
+    },
+    {
+        "productId": 30,
+        "productName": " P3",
+        "productManufacturingCity": " C2"
+    }
+]
