@@ -60,8 +60,8 @@ This application uses the following dependencies:
 
 * express - A fast, unopinionated, minimalist web framework for Node.js.
 * body-parser - A body parsing and encoding package for Node.js.
+* moment - Moment.js is a legacy project, now in maintenance mode. In most cases, you should choose a different library.
+* 
 
 ## Notes
-* The transaction data is assumed to be in the format Transaction_YYYYMMDDHHmmss.csv. For example, Transaction_20180101101010.csv.
-* The reference data for products is assumed to be in a file named ProductReference.csv.
-* This application is an in-memory application, so no persistent storage is required. The transaction data is reloaded upon startup of the application.
+* To monitor newly added files in the transaction and products folders and create JSON files for them, we used the fs.watch method provided by the Node.js fs module.
