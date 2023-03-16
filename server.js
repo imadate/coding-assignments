@@ -4,6 +4,8 @@ const express = require('express');
 // Import File Watcher to update file real time
 const { transactionsFileWatcher } = require('./handlers/transactions-file-watcher')
 const { productsFileWatcher } = require('./handlers/products-file-watcher');
+
+// Import Classes to use for API call
 const TransactionHandler = require('./handlers/transactions-data-handler');
 const ProductsHandler = require('./handlers/products-data-handler');
 
