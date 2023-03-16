@@ -3,7 +3,7 @@ const csv = require('csv-parser');
 const path = require('path');
 
 const inputFolderPath = path.join(__dirname, 'dump_files/product_data');
-const outputFilePath = path.join('helpers/dump_files/product_data_JSON/products.json')
+const outputFilePath = path.join('handlers/dump_files/product_data_JSON/products.json')
 
 const productsFileWatcher = () => {
     try {

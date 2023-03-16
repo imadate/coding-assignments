@@ -37,8 +37,38 @@
     },
     {
         "transactionId": 7,
+        "productId": 10,
+        "transactionAmount": 1000,
+        "transactionDatetime": "2018-10-01T04:40:10.000Z"
+    },
+    {
+        "transactionId": 8,
+        "productId": 10,
+        "transactionAmount": 1000,
+        "transactionDatetime": "2018-10-01T04:45:10.000Z"
+    },
+    {
+        "transactionId": 9,
+        "productId": 20,
+        "transactionAmount": 2000,
+        "transactionDatetime": "2018-10-01T04:45:20.000Z"
+    },
+    {
+        "transactionId": 10,
+        "productId": 10,
+        "transactionAmount": 1000,
+        "transactionDatetime": "2018-10-01T04:40:10.000Z"
+    },
+    {
+        "transactionId": 11,
         "productId": 30,
         "transactionAmount": 3000,
         "transactionDatetime": "2018-10-01T04:50:10.000Z"
+    },
+    {
+        "transactionId": 12,
+        "productId": 20,
+        "transactionAmount": 6,
+        "transactionDatetime": "2018-10-01T04:45:30.000Z"
     }
 ]

@@ -4,7 +4,7 @@ const path = require('path');
 const moment = require('moment')
 
 const inputFolderPath = path.join(__dirname, 'dump_files/transaction_data');
-const outputFilePath = path.join('helpers/dump_files/transaction_data_JSON/transactions.json')
+const outputFilePath = path.join('handlers/dump_files/transaction_data_JSON/transactions.json')
 
 const transactionsFileWatcher = () => {
     try {
